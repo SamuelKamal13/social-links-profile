@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 14px;
+    gap: 60px;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.profile-card {
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+    height: max-content;
+}
+
+img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.info {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.links {
+    width: 100%;
+    text-decoration: none;
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-weight: 600;
+}
+
+.links:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+    transition: 0.5s;
+}
